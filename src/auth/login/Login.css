@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ac9699;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #ff4081;
+    font-size: 0.9em;
+  }
+  
+  .login-button {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .or-continue {
+    margin: 15px 0;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .social-button {
+    background: none;
+    border: none;
+    margin: 0 10px;
+    font-size: 20px; /* Placeholder for actual icons */
+    cursor: pointer;
+  }
+  
+  .sign-up {
+    font-size: 0.9em;
+  }
+  
+  .signup-link {
+    color: #ff4081;
+  }

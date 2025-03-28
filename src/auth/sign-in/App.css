@@ -1,0 +1,46 @@
+.container {
+    width: 375px; /* Ancho igual al de la imagen */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    justify-content: center;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4081; /* Color del botón de crear cuenta */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eb2f4b;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+  }
