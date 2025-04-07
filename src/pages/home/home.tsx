@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Stylish</h1>
+        <h1>Rinia</h1>
         <input type="text" placeholder="Search any Product..." />
       </header>
 
