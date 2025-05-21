@@ -1,9 +1,13 @@
-import React from 'react';
+import { useState } from 'react';
 import './ProductDetail.css';
 
 const ProductDetail = () => {
   return (
     <div className="product-detail">
+      <header>
+        <h1>Rinia</h1>
+        <input type="text" placeholder="Search any Product..." />
+      </header>
       <div className="image-container">
         <img src="path/to/image.jpg" alt="Nike Sneakers" />
       </div>

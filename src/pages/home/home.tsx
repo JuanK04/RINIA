@@ -4,12 +4,32 @@ import './Home.css';
 
 const Home = () => {
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
   return (
     <div className="app-container">
-      <header className="app-header">
-        <h1>Rinia</h1>
-        <input type="text" placeholder="Search any Product..." />
+      <h1>Rinia</h1>
+      <header className="app-header">        
+        <input type="text" placeholder="Search any Product..." /> <button className="hamburger" onClick={toggleMenu}>
+                    ☰
+                </button>
+                
       </header>
+
+      {isMenuOpen && (
+                <nav className="menu">
+                    <ul>
+                        <li>Actividades realizadas en el curso </li>
+                        <li>Sistema implementado</li>
+                        <li>Código fuente (comprimido) </li>
+                        <li>Reporte de las modificaciones realizadas</li>
+                        <li>Salir</li>
+                    </ul>
+                </nav>
+            )}
 
       <section className="featured-section">
         <h2>All Featured</h2>

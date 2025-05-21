@@ -4,6 +4,8 @@ import SignIn from './auth/sign-in/signIn';
 import Home from './pages/home/home';
 import Tienda from './pages/tienda/tienda';
 import ProductDetail from "./pages/tienda/ProductDetail";
+import Carrito from "./pages/tienda/Carrito";
+import Checkout from "./pages/tienda/Checkout";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/tienda" element={<Tienda />} />
         <Route path="/product" element={<ProductDetail />} />
+        <Route path="/carrito" element={<Carrito />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </BrowserRouter>
   );

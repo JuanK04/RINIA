@@ -1,0 +1,46 @@
+.shopping-bag {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+.product-details {
+  display: contents;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.product-info {  
+  flex-grow: 1;
+  
+}
+
+.product-options label {
+  margin-right: 10px;
+}
+
+.coupon-button, .details-button, .proceed-button {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.order-summary {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.total-amount {
+  margin-top: 20px;
+  text-align: right;
+}

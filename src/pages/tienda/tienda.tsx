@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductList from './productlist';
+import ProductList from './ProductList';
 import './Tienda.css'; // Asegúrate de tener styles en este archivo.
 
 const App = () => {
